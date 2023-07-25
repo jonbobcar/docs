@@ -1,6 +1,6 @@
 # Setting Pick Position
 
-Now that you've loaded a component into the feeder, we'll fine-tune the feeder's position in OpenPnP and test picking a component.
+Now that you've loaded a component into the feeder, we'll fine-tune the feeder's position in OpenPnP and test picking a component. Again, these steps are the same for both 8mm and 16mm feeders.
 
 1. Mount your prepared feeder(s) to your LumenPnP.
     ![mounting feeder](../4-mounting/img/mounting.gif)

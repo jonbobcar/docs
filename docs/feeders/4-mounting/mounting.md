@@ -1,6 +1,7 @@
 # Mounting Feeders
 
-A feeder can be mounted on your LumenPnP with one smooth motion.
+<!-- TODO: Get a gif of mounting a 16mm feeder too. -->
+A feeder can be mounted on your LumenPnP with one smooth motion. 16mm feeders take up two slots at once.
 
 ![mounting feeder](img/mounting.gif)
 

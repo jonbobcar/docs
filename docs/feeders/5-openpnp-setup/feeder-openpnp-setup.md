@@ -1,6 +1,6 @@
 # OpenPnP Setup
 
-Both the feeder slots, and the Photon Feeders themselves have unique identifiers that OpenPnP will use to keep your components organized easily. Even if you rearrange your feeders, OpenPnP will remember which component was loaded onto it. And since OpenPnP will remember where each feeder slot is located, the picking location will already be set for you!
+Both the feeder slots, and the Photon Feeders themselves have unique identifiers that OpenPnP will use to keep your components organized easily. Even if you rearrange your feeders, OpenPnP will remember which component was loaded onto it. And since OpenPnP will remember where each feeder slot is located, the picking location will already be set for you! On top of that, 8mm and 16mm feeders are automatically identified, so you don't need to specify which are which.
 
 If you'd like to start with a fresh config, you can download the `openpnp-config-vX.X.X.zip` file from the [most recent release](https://github.com/opulo-inc/lumenpnp/releases).
 
@@ -31,7 +31,7 @@ You'll need to do these steps whenever you have brand new feeders.
 4. Select `PhotonFeeder`.
    ![adding new photon feeder](img/add-photon-feeder.png)
 
-5. Mount all of your new feeders to your machine. They can be in any slot.
+5. Mount all of your new feeders to your machine. They can be in any slot. (16mm feeders will take two slots)
    ![mounting feeder](../4-mounting/img/mounting.gif)
 
 6. Click the `Search` button. OpenPnP will now scan for any feeders attached. This will take a minute, and you'll see the progress showing which slots have feeders in them.

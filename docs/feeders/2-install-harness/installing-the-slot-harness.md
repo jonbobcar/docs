@@ -2,6 +2,9 @@
 
 In this step, you'll install and wire slots onto the front and back rails of your LumenPnP. Slots provide power and communication to your feeders.
 
+!!! note "16mm Feeders"
+    All of the steps on this apply to setups with 8mm and 16mm feeders. 16mm feeders will take up two slots at a time.
+
 ## Adjust Your Staging Plate
 
 To ensure feeders will mount to your LumenPnP's front rail, we need to ensure that your staging plate is mounted at the correct position. **If you have a v3 LumenPnP, your staging plate is already at the correct distance, and can skip this section.**

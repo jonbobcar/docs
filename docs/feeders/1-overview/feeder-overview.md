@@ -1,18 +1,20 @@
 # Overview
 
-This is the Opulo 8mm Feeder:
+The LumenPnP is compatible with 8mm and 16mm feeders:
 
+<!-- TODO: Get image of 8mm and 16mm feeder -->
 ![hero image of feeder8](img/with-arm-with-glow.png)
 
-The 8mm feeder is an open source SMT component tape feeder that can reliably feed components as small as 0402. It is designed to work with a LumenPnP Pick and Place Machine, but can mount onto any 20mm X 20mm v-slot extrusion. The source can be found [here](https://github.com/opulo-inc/feeder).
+<!-- TODO: max size of 16mm feeder -->
+The 8mm feeder is an open source SMT component tape feeder that can reliably feed components as small as 0402. The 16mm feeder can feed components up to XXXX.  Both are designed to work with a LumenPnP Pick and Place Machine, but can mount onto any 20mm X 20mm v-slot extrusion. The source can be found [here](https://github.com/opulo-inc/feeder).
 
-The feeder uses the open source [Photon feeder controller firmware](https://github.com/photonfirmware/photon), and talks the Photon protocol over RS-485 to any Marlin host with RS-485 support.
+The feeders uses the open source [Photon feeder controller firmware](https://github.com/photonfirmware/photon), and talk the Photon protocol over RS-485 to any Marlin host with RS-485 support.
 
-You can fit up to 50x 8mm Feeders on the front and back rail of your LumenPnP when using two staging plates.
+You can fit up to 50x 8mm Feeders, or 25x 16mm Feeders on the front and back rail of your LumenPnP when using two staging plates.
 
 ![2 plates with 50 feeders](img/2plates-50feeders.png)
 
-If you'd like to add a third staging plate, you can fit 25x 8mm Feeders on the front rail of your LumenPnP.
+If you'd like to add a third staging plate, you can fit 25x 8mm Feeders on the front rail of your LumenPnP, or 12x 16mm Feeders.
 
 ![3 plates with 25 feeders](img/3plates-25feeders.png)
 
@@ -56,7 +58,7 @@ If you'd like to add a third staging plate, you can fit 25x 8mm Feeders on the f
 
 ## Help
 
-If you get stuck, please don't hesitate to send us an email at support@opulo.io, or use our [support form](https://opulo.io/pages/contact-support).
+If you get stuck, please don't hesitate to send us an email at <support@opulo.io>, or use our [support form](https://opulo.io/pages/contact-support).
 
 If you find that there's something unclear in this documentation, please [submit a ticket on Github](https://github.com/opulo-inc/docs) about it! You can also file an issue using the link in the upper right of any page on this site. We're trying to make this as clear and understandable as possible, so every issue you tag helps us make it better for everyone else. You can also check out the [Discord server](https://discordapp.com/invite/TCwy6De) and ask questions to the community.
 

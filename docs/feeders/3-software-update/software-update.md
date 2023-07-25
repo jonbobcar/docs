@@ -1,14 +1,14 @@
 # Software Update
 
-To enable feeder usage, you'll need to update both your LumenPnP's firmware and OpenPnP.
+To enable feeder usage, you'll need to update both your LumenPnP's firmware and OpenPnP. All of these steps work with both 8mm, and 16mm feeders.
 
 ## Update OpenPnP
 
-LumenPnP feeders are a new OpenPnP feature, are not yet in mainline OpenPnP. These docs are based on a 2023-04-05 release, which you can download here:
+LumenPnP feeders are a new OpenPnP feature, are not yet in mainline OpenPnP. These docs are based on a `2023-04-05` release, which you can download here:
 
-- Linux ([.deb](https://openpnp.s3-us-west-2.amazonaws.com/test/2023-04-05_08-24-36.0aa4ae8/OpenPnP-linux-test.deb))
-- Windows ([32 Bit .exe](https://openpnp.s3-us-west-2.amazonaws.com/test/2023-04-05_08-24-36.0aa4ae8/OpenPnP-windows-x32-test.exe)) ([64 Bit .exe](https://openpnp.s3-us-west-2.amazonaws.com/test/2023-04-05_08-24-36.0aa4ae8/OpenPnP-windows-x64-test.exe))
-- Mac ([.dmg](https://openpnp.s3-us-west-2.amazonaws.com/test/2023-04-05_08-24-36.0aa4ae8/OpenPnP-macos-test.dmg))
+- Linux ([.deb][linux])
+- Windows ([32 Bit .exe][windows32]) ([64 Bit .exe][windows64])
+- Mac ([.dmg][mac])
 
 You can also download the most recent builds of OpenPnP that support feeders [here](https://openpnp.org/test-downloads/), but there could be updates or changes that differ from these docs.
 
@@ -16,7 +16,7 @@ You can also download the most recent builds of OpenPnP that support feeders [he
     Because of [a bug with how OpenPnP signs their releases](https://github.com/openpnp/openpnp/issues/1559), Mac users with ARM processors might experience a crash on boot. You can still run OpenPnP by navigating to `Applications -> OpenPnP` and right clicking on the OpenPnP app and selecting "Show Package Contents":
     ![Show package contents on the openpnp app](img/opnp-show-package-contents.png)
     Then navigate to `Contents -> MacOS` and double click on `JavaApplicationStub` to run OpenPnP.
-    ![clicking on javaapplicationstub](img/boot-opnp-java-stub.png)
+    ![clicking on javaApplicationStub](img/boot-opnp-java-stub.png)
 
 ## Update LumenPnP Firmware
 
@@ -84,20 +84,25 @@ You can also download the most recent builds of OpenPnP that support feeders [he
         If you can't connect to your feeder, check that the programmer is inserted into the pins in the correct orientation. Also, applying gentle pressure to the side of the programmer can help ensure that the pins are making good contact with the plated holes in the feeder PCB.
 
 12. Once connected, Switch to the download tab on the left.
-![Download Tab](img/download-tab.png)
+    ![Download Tab](img/download-tab.png)
 
-1.  Click the "Browse" button and navigate to the provided `firmware.bin` file.
+13. Click the "Browse" button and navigate to the provided `firmware.bin` file.
     ![Browse Button](img/browse-button.png)
 
-2.  Ensure that the “Start address” is `0x08000000`.
+14. Ensure that the “Start address” is `0x08000000`.
     ![Start Address](img/start-address.png)
 
-3.  Click "Start Programming".
+15. Click "Start Programming".
     ![Start Programming](img/start-programming.png)
 
-4.  Wait until the software prompts that the firmware has been downloaded successfully. You may disconnect the programmer from the feeder.
+16. Wait until the software prompts that the firmware has been downloaded successfully. You may disconnect the programmer from the feeder.
     ![programming complete pop up](img/programming-complete.png)
 
 ## Next Steps
 
 Next, you'll [mount your feeders.](../4-mounting/mounting.md)
+
+[linux]: https://openpnp.s3-us-west-2.amazonaws.com/test/2023-04-05_08-24-36.0aa4ae8/OpenPnP-linux-test.deb
+[windows32]: https://openpnp.s3-us-west-2.amazonaws.com/test/2023-04-05_08-24-36.0aa4ae8/OpenPnP-windows-x32-test.exe
+[windows64]: https://openpnp.s3-us-west-2.amazonaws.com/test/2023-04-05_08-24-36.0aa4ae8/OpenPnP-windows-x64-test.exe
+[mac]: https://openpnp.s3-us-west-2.amazonaws.com/test/2023-04-05_08-24-36.0aa4ae8/OpenPnP-macos-test.dmg

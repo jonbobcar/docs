@@ -4,7 +4,7 @@
 This video shows how tape is loaded into the feeder, and the functionality of the buttons.
 
 !!! Note "Keep In Mind"
-    Don't worry if something in the video doesn't look exactly like what you have in the box. We’re constantly tuning and tweaking things to make them better and easier to use, so you might find things look slightly different.
+    16mm feeders can be loaded the same way. Even your 8mm feeder may look very slightly different from the video, since we're always making improvements to the feeder design.
 <div class="video-wrapper">
 <iframe width="560" height="315" margin="auto" src="https://www.youtube.com/embed/rVsv2GUO0Tg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
